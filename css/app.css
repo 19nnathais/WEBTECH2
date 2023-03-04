@@ -145,6 +145,7 @@ nav {
     .menu-icon {
       display: block;
       padding-right: 10px;
+      font-size: 25px;
     }
     
     ul.active {
