@@ -4,27 +4,27 @@ const menuLinks = document.querySelector('ul');
 menuIcon.addEventListener('click', () => {
   menuLinks.classList.toggle('active');
 });
-var swiper1 = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      },
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 300,
-      modifier: 1,
-      slideShadows: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
+// var swiper1 = new Swiper(".mySwiper", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     autoplay: {
+//         delay: 2500,
+//         disableOnInteraction: false,
+//         pauseOnMouseEnter: true,
+//       },
+//     coverflowEffect: {
+//       rotate: 0,
+//       stretch: 0,
+//       depth: 300,
+//       modifier: 1,
+//       slideShadows: false,
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//     },
+//   });
   var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 4,
     spaceBetween: 30,
@@ -52,7 +52,7 @@ var swiper1 = new Swiper(".mySwiper", {
       },
     },
   });
-  swiper1.slideNext();
+  // swiper1.slideNext();
   swiper2.slideNext();
   let slideIndex = 0;
 showSlides();
