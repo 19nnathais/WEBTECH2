@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 56px;
     color:#f76e10;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 h2{
     font-size: 40px;
@@ -17,6 +17,7 @@ h2{
 p{
     font-size: 20px;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 .home{
   padding-top: 7%;
@@ -101,7 +102,7 @@ nav {
   a:hover {
     color: #f76e10;
     text-shadow: 0 0 8px #f1c40f;
-    transform: rotate(-10deg) scale(1.2);
+    /* transform: rotate(-10deg) scale(1.2); */
     /* background-color: #f76e10; */
   }
   
